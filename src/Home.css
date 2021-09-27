@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.Home {
+  display: block;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./images/home.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+  background-color: transparent;
+  border-radius: 5rem;
+  margin-left: 4rem;
+  border: 0.1rem solid #eee;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+.logo_text {
+  font-size: 3rem;
+  padding-left: 0.8rem;
+  color: transparent;
+  background-color: #e899dc;
+  background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+  -webkit-background-clip: text;
+}
+.navigation {
+  margin-left: 64%;
+  margin-top: -3%;
+  position: fixed;
+}
+.navigation .list .nav_item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 2px;
+  font-size: 1.8rem;
+}
+.navigation .list .nav_item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eee;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+.navigation .list .nav_item a:hover {
+  background-color: #f7f7f7;
+  color: #000;
+  transform: translateY(-0.6rem);
+}
+.navigation .list .nav_item a:active {
+  transform: translateY(-0.8rem);
+}
+.intro {
+  margin-top: 12%;
+  margin-left: 10%;
+  color: transparent;
+  font-weight: thin;
+  font-size: 3rem;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  -webkit-background-clip: text;
+}
+
+.intro h3 {
+  font-size: 2rem;
+}
+.margin_bottom {
+  margin-bottom: 1rem;
+}
+
+.intro a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eee;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.intro a:hover {
+  background-color: #f7f7f7;
+  color: #000;
+  transform: translateY(-0.6rem);
+}
+
+.intro a:active {
+  transform: translateY(-0.8rem);
+}
